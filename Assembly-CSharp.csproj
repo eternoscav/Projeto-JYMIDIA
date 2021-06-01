@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{78891226-5C17-9280-22E7-560B5D3F0C21}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_5_0;UNITY_4_5;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\GeralPlugins\DrawCallMinimizer\Misc\ShaderProperties.cs" />
+     <Compile Include="Assets\GeralPlugins\DrawCallMinimizer\Misc\TextureAtlasInfo.cs" />
+     <Compile Include="Assets\GeralPlugins\DrawCallMinimizer\Runtime\MeshCombineUtility.cs" />
+     <Compile Include="Assets\GeralPlugins\DrawCallMinimizer\Runtime\OptimizedCombineChildren.cs" />
+     <Compile Include="Assets\GeralPlugins\DrawCallMinimizer\Runtime\TextureCombineUtility.cs" />
+     <Compile Include="Assets\GeralPlugins\EasyTouch\Example\C# Example\Example for EasyButton\ETPlayer.cs" />
+     <Compile Include="Assets\GeralPlugins\EasyTouch\Example\C# Example\Examples for EasyJoystick\Example-thirdPerson_DirectEventMode\JoystickEvent.cs" />
+     <Compile Include="Assets\GeralPlugins\EasyTouch\Example\C# Example\Examples for EasyJoystick\Example_FirstPerson_DirectMode\GUIFirstDirect.cs" />
+     <Compile Include="Assets\GeralPlugins\EasyTouch\Example\C# Example\Examples for EasyJoystick\ExitButton.cs" />
+     <Compile Include="Assets\GeralPlugins\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-FreeCam\FreeCam.cs" />
+     <Compile Include="Assets\GeralPlugins\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-FreeCam\GuiCam.cs" />
+     <Compile Include="Assets\GeralPlugins\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-ManipulationImage\GuiPhoto.cs" />
+     <Compile Include="Assets\GeralPlugins\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-ManipulationImage\Photo.cs" />
+     <Compile Include="Assets\GeralPlugins\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-MultiLayer\GuiLayer.cs" />
+     <Compile Include="Assets\GeralPlugins\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-MultiLayer\TouchLayer.cs" />
+     <Compile Include="Assets\GeralPlugins\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-Multiplefingers\GuiMultiFinger.cs" />
+     <Compile Include="Assets\GeralPlugins\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-Multiplefingers\ObjectTouch.cs" />
+     <Compile Include="Assets\GeralPlugins\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-Multiplefingers\ScreenTouch.cs" />
+     <Compile Include="Assets\GeralPlugins\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-Multiplefingers\SlowRotate.cs" />
+     <Compile Include="Assets\GeralPlugins\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-OneFinger\DoubleTap.cs" />
+     <Compile Include="Assets\GeralPlugins\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-OneFinger\Drag.cs" />
+     <Compile Include="Assets\GeralPlugins\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-OneFinger\GuiOneFinger.cs" />
+     <Compile Include="Assets\GeralPlugins\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-OneFinger\LongTap.cs" />
+     <Compile Include="Assets\GeralPlugins\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-OneFinger\Swipe.cs" />
+     <Compile Include="Assets\GeralPlugins\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-OneFinger\Tap.cs" />
+     <Compile Include="Assets\GeralPlugins\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-OneFinger\TouchStart.cs" />
+     <Compile Include="Assets\GeralPlugins\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-StartMenu\GuiStartMenu.cs" />
+     <Compile Include="Assets\GeralPlugins\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-TwoFinger\GuiTwoFinger.cs" />
+     <Compile Include="Assets\GeralPlugins\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-TwoFinger\Pinch.cs" />
+     <Compile Include="Assets\GeralPlugins\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-TwoFinger\Twist.cs" />
+     <Compile Include="Assets\GeralPlugins\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-TwoFinger\TwoDoubleTap.cs" />
+     <Compile Include="Assets\GeralPlugins\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-TwoFinger\TwoDrag.cs" />
+     <Compile Include="Assets\GeralPlugins\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-TwoFinger\TwoLongTap.cs" />
+     <Compile Include="Assets\GeralPlugins\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-TwoFinger\TwoSwipe.cs" />
+     <Compile Include="Assets\GeralPlugins\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-TwoFinger\TwoTap.cs" />
+     <Compile Include="Assets\GeralPlugins\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-TwoFinger\TwoTouchStart.cs" />
+     <Compile Include="Assets\GeralPlugins\EasyTouch\Plugins\EasyButton.cs" />
+     <Compile Include="Assets\GeralPlugins\EasyTouch\Plugins\EasyJoystick.cs" />
+     <Compile Include="Assets\GeralPlugins\EasyTouch\Plugins\EasyTouch.cs" />
+     <Compile Include="Assets\GeralPlugins\EasyTouch\Plugins\EasyTouchInput.cs" />
+     <Compile Include="Assets\GeralPlugins\EasyTouch\Plugins\Finger.cs" />
+     <Compile Include="Assets\GeralPlugins\EasyTouch\Plugins\Gesture.cs" />
+     <Compile Include="Assets\GeralPlugins\EasyTouch\Plugins\MonoSingleton.cs" />
+     <Compile Include="Assets\GeralPlugins\EasyTouch\Plugins\MovingJoystick.cs" />
+     <Compile Include="Assets\GeralPlugins\EasyTouch\Plugins\VirtualScreen.cs" />
+     <Compile Include="Assets\GeralPlugins\EasyTouch\Plugins\_C#-Event-Template\C_EasyButtonTemplate.cs" />
+     <Compile Include="Assets\GeralPlugins\EasyTouch\Plugins\_C#-Event-Template\C_EasyJoystickTemplate.cs" />
+     <Compile Include="Assets\GeralPlugins\EasyTouch\Plugins\_C#-Event-Template\C_EasyTouchTemplate.cs" />
+     <Compile Include="Assets\GeralPlugins\FingerGestures\Samples\Scripts\AdvancedPinchRotationSample.cs" />
+     <Compile Include="Assets\GeralPlugins\FingerGestures\Samples\Scripts\FingerEventsSamplePart1.cs" />
+     <Compile Include="Assets\GeralPlugins\FingerGestures\Samples\Scripts\FingerEventsSamplePart2.cs" />
+     <Compile Include="Assets\GeralPlugins\FingerGestures\Samples\Scripts\Internal\BasicSample.cs" />
+     <Compile Include="Assets\GeralPlugins\FingerGestures\Samples\Scripts\Internal\DragTrail.cs" />
+     <Compile Include="Assets\GeralPlugins\FingerGestures\Samples\Scripts\Internal\EmitParticles.cs" />
+     <Compile Include="Assets\GeralPlugins\FingerGestures\Samples\Scripts\Internal\MenuNode.cs" />
+     <Compile Include="Assets\GeralPlugins\FingerGestures\Samples\Scripts\Internal\SampleBase.cs" />
+     <Compile Include="Assets\GeralPlugins\FingerGestures\Samples\Scripts\Internal\SampleUI.cs" />
+     <Compile Include="Assets\GeralPlugins\FingerGestures\Samples\Scripts\Internal\StartMenu.cs" />
+     <Compile Include="Assets\GeralPlugins\FingerGestures\Samples\Scripts\Internal\SwipeParticlesEmitter.cs" />
+     <Compile Include="Assets\GeralPlugins\FingerGestures\Samples\Scripts\MultiFingerSwipeSample.cs" />
+     <Compile Include="Assets\GeralPlugins\FingerGestures\Samples\Scripts\OneFingerGestureSample.cs" />
+     <Compile Include="Assets\GeralPlugins\FingerGestures\Samples\Scripts\PinchRotationSample.cs" />
+     <Compile Include="Assets\GeralPlugins\FingerGestures\Samples\Scripts\ToolboxDragDropSample.cs" />
+     <Compile Include="Assets\GeralPlugins\FingerGestures\Samples\Scripts\ToolboxFingerEventsSample.cs" />
+     <Compile Include="Assets\GeralPlugins\FingerGestures\Samples\Scripts\ToolboxOneFingerGestureSample.cs" />
+     <Compile Include="Assets\GeralPlugins\FingerGestures\Samples\Scripts\TwoFingerGestureSample.cs" />
+     <Compile Include="Assets\GeralPlugins\FingerGestures\Samples\TouchPhaseVisualizer.cs" />
+     <Compile Include="Assets\GeralPlugins\FingerGestures\SkeletonCode\CSharpSkeleton.cs" />
+     <Compile Include="Assets\GeralPlugins\FingerGestures\Toolbox\Misc\TBDragOrbit.cs" />
+     <Compile Include="Assets\GeralPlugins\FingerGestures\Toolbox\Misc\TBPinchZoom.cs" />
+     <Compile Include="Assets\GeralPlugins\FingerGestures\Toolbox\TBComponent.cs" />
+     <Compile Include="Assets\GeralPlugins\FingerGestures\Toolbox\TBDrag.cs" />
+     <Compile Include="Assets\GeralPlugins\FingerGestures\Toolbox\TBFingerDown.cs" />
+     <Compile Include="Assets\GeralPlugins\FingerGestures\Toolbox\TBFingerUp.cs" />
+     <Compile Include="Assets\GeralPlugins\FingerGestures\Toolbox\TBInputManager.cs" />
+     <Compile Include="Assets\GeralPlugins\FingerGestures\Toolbox\TBLongPress.cs" />
+     <Compile Include="Assets\GeralPlugins\FingerGestures\Toolbox\TBSwipe.cs" />
+     <Compile Include="Assets\GeralPlugins\FingerGestures\Toolbox\TBTap.cs" />
+     <Compile Include="Assets\GeralPlugins\FingerGestures\Utils\GestureStateTracker.cs" />
+     <Compile Include="Assets\GeralPlugins\FingerGestures\Utils\MoveToFinger.cs" />
+     <Compile Include="Assets\GeralPlugins\JMO Assets\Cartoon FX\Demo\Assets\CFX2_Demo.cs" />
+     <Compile Include="Assets\GeralPlugins\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_RandomDir.cs" />
+     <Compile Include="Assets\GeralPlugins\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_RotateCamera.cs" />
+     <Compile Include="Assets\GeralPlugins\JMO Assets\Cartoon FX\Scripts\CFX2_AutoRotate.cs" />
+     <Compile Include="Assets\GeralPlugins\JMO Assets\Cartoon FX\Scripts\CFX_AutoDestructShuriken.cs" />
+     <Compile Include="Assets\GeralPlugins\JMO Assets\Cartoon FX\Scripts\CFX_AutodestructWhenNoChildren.cs" />
+     <Compile Include="Assets\GeralPlugins\JMO Assets\Cartoon FX\Scripts\CFX_LightIntensityFade.cs" />
+     <Compile Include="Assets\GeralPlugins\JMO Assets\Cartoon FX\Scripts\CFX_ShurikenThreadFix.cs" />
+     <Compile Include="Assets\GeralPlugins\JMO Assets\Cartoon FX\Spawn System\CFX_SpawnSystem.cs" />
+     <Compile Include="Assets\GeralPlugins\Thinkscroller Example Project\Scripts\CloudMovement.cs" />
+     <Compile Include="Assets\GeralPlugins\Thinkscroller Example Project\Scripts\ConstantScroll.cs" />
+     <Compile Include="Assets\GeralPlugins\Thinkscroller Example Project\Scripts\PlanetMovement.cs" />
+     <Compile Include="Assets\GeralPlugins\Thinkscroller Example Project\Scripts\ScrollSpeedSlider.cs" />
+     <Compile Include="Assets\GeralPlugins\Thinkscroller Example Project\Scripts\ScrollWithTransform.cs" />
+     <Compile Include="Assets\GeralPlugins\TransitionsManager\Scripts\RandomizeColor.cs" />
+     <Compile Include="Assets\GeralPlugins\TransitionsManager\Scripts\TransitionManager.cs" />
+     <Compile Include="Assets\GeralPlugins\iTween\Plugins\iTween.cs" />
+     <Compile Include="Assets\GeralPlugins\iTween\Sample\MoveSample.cs" />
+     <Compile Include="Assets\GeralPlugins\iTween\Sample\RotateSample.cs" />
+     <Compile Include="Assets\GeralPlugins\iTween\Sample\SampleInfo.cs" />
+     <Compile Include="Assets\Scripts\AnimarPortal.cs" />
+     <Compile Include="Assets\Scripts\AutomaticJump.cs" />
+     <Compile Include="Assets\Scripts\AutomaticPower.cs" />
+     <Compile Include="Assets\Scripts\AutomaticSlide.cs" />
+     <Compile Include="Assets\Scripts\BotaoMenu.cs" />
+     <Compile Include="Assets\Scripts\BulletRed.cs" />
+     <Compile Include="Assets\Scripts\CLSRadar.cs" />
+     <Compile Include="Assets\Scripts\CameraFade.cs" />
+     <Compile Include="Assets\Scripts\Destroy.cs" />
+     <Compile Include="Assets\Scripts\DestruirMaca.cs" />
+     <Compile Include="Assets\Scripts\DragTransform.cs" />
+     <Compile Include="Assets\Scripts\Example2.cs" />
+     <Compile Include="Assets\Scripts\GUIScaleExample.cs" />
+     <Compile Include="Assets\Scripts\GameController.cs" />
+     <Compile Include="Assets\Scripts\Inimigo.cs" />
+     <Compile Include="Assets\Scripts\Instrucao.cs" />
+     <Compile Include="Assets\Scripts\LimitScreen2D.cs" />
+     <Compile Include="Assets\Scripts\MenuPause.cs" />
+     <Compile Include="Assets\Scripts\MenuPrincipal.cs" />
+     <Compile Include="Assets\Scripts\Morte.cs" />
+     <Compile Include="Assets\Scripts\Oncollider.cs" />
+     <Compile Include="Assets\Scripts\Opcoes.cs" />
+     <Compile Include="Assets\Scripts\Particles.cs" />
+     <Compile Include="Assets\Scripts\PlataformMoviment.cs" />
+     <Compile Include="Assets\Scripts\PortalMagnet.cs" />
+     <Compile Include="Assets\Scripts\Rotation.cs" />
+     <Compile Include="Assets\Scripts\Rotation2.cs" />
+     <Compile Include="Assets\Scripts\Score.cs" />
+     <Compile Include="Assets\Scripts\SwipeMotions.cs" />
+     <Compile Include="Assets\Scripts\TempoPercorrido.cs" />
+     <Compile Include="Assets\Scripts\TorraApple.cs" />
+     <Compile Include="Assets\Scripts\TriggerAjuste.cs" />
+     <Compile Include="Assets\Scripts\TriggerApple.cs" />
+     <Compile Include="Assets\Scripts\TriggerAut.cs" />
+     <Compile Include="Assets\Scripts\TriggerCrystal.cs" />
+     <Compile Include="Assets\Scripts\TriggerFase.cs" />
+     <Compile Include="Assets\Scripts\TriggerInicial.cs" />
+     <Compile Include="Assets\Scripts\TriggerInstrucao.cs" />
+     <Compile Include="Assets\Scripts\TriggerMorte.cs" />
+     <Compile Include="Assets\Scripts\TriggerPlatformAnimation.cs" />
+     <Compile Include="Assets\Scripts\TriggerSliding.cs" />
+     <Compile Include="Assets\Scripts\TriggerSmoke.cs" />
+     <Compile Include="Assets\Scripts\TriggerSpawn.cs" />
+     <Compile Include="Assets\Scripts\TriggerStop.cs" />
+     <Compile Include="Assets\Scripts\TriggerStopPerson.cs" />
+     <Compile Include="Assets\Scripts\TrocaCor.cs" />
+     <Compile Include="Assets\Scripts\TrocaFace.cs" />
+     <Compile Include="Assets\Scripts\TrocaRoupa.cs" />
+     <Compile Include="Assets\Scripts\anime.cs" />
+     <Compile Include="Assets\Scripts\gameover.cs" />
+     <Compile Include="Assets\Scripts\gamestart.cs" />
+     <Compile Include="Assets\Scripts\gamestate.cs" />
+     <Compile Include="Assets\Scripts\levelgui.cs" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ShowAlphaChannel.shader" />
+     <None Include="Assets\GeralPlugins\Thinkscroller Example Project\Shaders\Planet Transparent.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowConeTap.shader" />
+     <None Include="Assets\GeralPlugins\JMO Assets\Cartoon FX\Shaders (Mobile)\CFXM_MobileParticleAdd_Alpha8.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SunShaftsComposite.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ScreenSpaceAmbientObscurance.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\GeralPlugins\EasyTouch\Readme_first.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+     <None Include="Assets\Plugins\Thinkscroller\Documentation\INSTALL.txt" />
+     <None Include="Assets\GeralPlugins\JMO Assets\Cartoon FX\CartoonFX2 Releases Notes.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlur.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MobileBloom.shader" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowCompose.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\RadialBlur.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ContrastComposite.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\frag_ao.cginc" />
+     <None Include="Assets\GeralPlugins\JMO Assets\Cartoon FX\Shaders\CFX2 Particle Alpha Blend Add.shader" />
+     <None Include="Assets\GeralPlugins\Thinkscroller Example Project\Shaders\Planet.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfField34.shader" />
+     <None Include="Assets\GeralPlugins\JMO Assets\Cartoon FX Easy Editor\CartoonFX Easy Editor Readme.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MobileBlur.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SSAOShader.shader" />
+     <None Include="Assets\GeralPlugins\JStoC\readme.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\Plugins\Thinkscroller\Documentation\CHANGELOG.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowEffectDownsample.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CreaseApply.shader" />
+     <None Include="Assets\Plugins\Thinkscroller\Shaders\Parallax-Default.shader" />
+     <None Include="Assets\GeralPlugins\JMO Assets\!JMO Assets Readme.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ChromaticAberrationShader.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlobalFog.shader" />
+     <None Include="Assets\GeralPlugins\DrawCallMinimizer\Example\ReadMe.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Luminance.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionSelective.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\Bokeh34.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlurDX11.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\GeralPlugins\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_WaterWiggle.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlurEffectConeTaps.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlur.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableBlur.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlurClear.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GrayscaleEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SepiaToneEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\TwirlEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VortexEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrain.shader" />
+     <None Include="Assets\GeralPlugins\JMO Assets\Cartoon FX\Shaders\CFX2 Particle Alpha Blend Tint.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VignettingShader.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Tonemapper.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrection3DLut.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\PrepareSunShaftsBlur.shader" />
+     <None Include="Assets\GeralPlugins\JMO Assets\Cartoon FX\CartoonFX2 Readme.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlendModesOverlay.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SimpleClear.shader" />
+     <None Include="Assets\GeralPlugins\TransitionsManager\ReadMe.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA3Console.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset2.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+ <Reference Include="ThinksquirrelCommon.Runtime">
+ <HintPath>G:/GERAL PROJETOS/PROJETO JYMIDIA/Assets/Plugins/Thinksquirrel Common/ThinksquirrelCommon.Runtime.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{F9D5A217-6C5C-0811-C740-2398EA478A88}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{412997C0-2DE0-D2E3-34B5-8C079F3070D0}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
